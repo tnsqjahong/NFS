@@ -18,7 +18,7 @@ public class WebLogin : MonoBehaviour
     private int expirationTime;
     private string account; 
 
-    public void OnLogin()
+    public void Awake()
     {
         Web3Connect();
         OnConnected();
