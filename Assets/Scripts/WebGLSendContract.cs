@@ -57,7 +57,7 @@ public class WebGLSendContract : MonoBehaviour
         // // gas price OPTIONAL
         // string gasPrice = "";
         // connects to user's browser wallet (metamask) to update contract state
-		Text _problem = GameObject.Find("SendContract").transform.GetChild(3).transform.GetChild(1).transform.GetChild(0).transform.GetChild(1).GetComponent<Text>();
+		Text _problem = GameObject.Find("InputField").transform.GetChild(0).transform.GetChild(1).GetComponent<Text>();
 		string problem = _problem.ToString();
 		Debug.Log(problem);
         try {
