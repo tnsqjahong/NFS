@@ -603,5 +603,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: SendContract
       objectReference: {fileID: 0}
+    - target: {fileID: 7408943391450375288, guid: 3e21f11643f424c4ca793da973c22b99, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408943391450375288, guid: 3e21f11643f424c4ca793da973c22b99, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408943391450375288, guid: 3e21f11643f424c4ca793da973c22b99, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408943391450375288, guid: 3e21f11643f424c4ca793da973c22b99, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408943391450375288, guid: 3e21f11643f424c4ca793da973c22b99, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408943391450375288, guid: 3e21f11643f424c4ca793da973c22b99, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 31
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e21f11643f424c4ca793da973c22b99, type: 3}
