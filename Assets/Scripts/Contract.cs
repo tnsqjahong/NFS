@@ -4,8 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-#if UNITY_WEBGL
-public class WebGLSendContract : MonoBehaviour
+public class Contract : MonoBehaviour
 {
     async public void proposal(bool vote)
     {
@@ -150,5 +149,3 @@ public class WebGLSendContract : MonoBehaviour
         }
     }
 }
-
-#endif
