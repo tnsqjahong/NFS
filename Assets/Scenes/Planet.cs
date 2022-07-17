@@ -7,6 +7,7 @@ public class Planet : MonoBehaviour
     // Start is called before the first frame update
    private GameObject target;
    public GameObject Canvas;
+   bool yes=false;
 
 void Start() {
     {
@@ -23,8 +24,12 @@ target = GetClickedObject() ;
 if(target.Equals(gameObject))  //선택된게 나라면
 {
 
+if(yes==false){
     print("that's me!");
     Canvas.SetActive(true);
+    yes=true;}
+    else if(yes==true) {Canvas.SetActive(false);
+    yes=false;}
 //여기에다가 코드 작성 하시면 됩니다. 
 }
 
