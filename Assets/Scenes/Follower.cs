@@ -23,7 +23,7 @@ public class Follower : MonoBehaviour
   
 void Start() {
 
-     PlaneLight.SetActive(false);
+     //PlaneLight.SetActive(false);
      //gameObject.SetActive(false);
      //gameObject.SetActive(true);
 
@@ -44,11 +44,11 @@ void Update()
        
          distanceTraveled+=speed*Time.deltaTime;
         transform.position=pathCreator.path.GetPointAtDistance(distanceTraveled);
-        Destroy(gameObject, 1);
+        Destroy(gameObject, 5);
        
         StartCoroutine(Waitone());
         PlaneLight.SetActive(true);
-        Destroy(PlaneLight, 1.5f);
+        // Destroy(PlaneLight, 1.5f);
        
           
                
