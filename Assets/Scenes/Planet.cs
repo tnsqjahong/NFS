@@ -28,7 +28,7 @@ if(yes==false){
     print("that's me!");
     Canvas.SetActive(true);
     yes=true;}
-    else if(yes==true) {Canvas.SetActive(false);
+   else if(yes==true) {Canvas.SetActive(false);
     yes=false;}
 //여기에다가 코드 작성 하시면 됩니다. 
 }

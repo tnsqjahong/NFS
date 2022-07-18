@@ -478,6 +478,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SendContract
       objectReference: {fileID: 0}
+    - target: {fileID: 7326057944685686813, guid: 0567812a2b8c94ecfb00d31f89600869, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7593086209797730969, guid: 0567812a2b8c94ecfb00d31f89600869, type: 3}
       propertyPath: m_Name
       value: SendContract
@@ -838,11 +842,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7803699773354421606, guid: 903b1c98840c647b49682e2cd3a09ac7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7803699774763411026, guid: 903b1c98840c647b49682e2cd3a09ac7, type: 3}
       propertyPath: m_Name
       value: SendTransaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 7803699774763411026, guid: 903b1c98840c647b49682e2cd3a09ac7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7803699774763411030, guid: 903b1c98840c647b49682e2cd3a09ac7, type: 3}
       propertyPath: m_Pivot.x
